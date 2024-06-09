@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+    <style>
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(120deg, #f7f3e9, #f7d9e9);
+            background-size: 200% 200%;
+            animation: gradientAnimation 10s ease infinite;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            position: relative;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+            color: #b56576;
+            transition: color 0.3s ease;
+        }
+
+        .header h1:hover {
+            color: #010d07;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content p {
+            margin-bottom: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .content p:hover {
+            color: #b56576;
+        }
+
+        .content .highlight {
+            color: #b56576;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .content .highlight:hover {
+            color: #ff7e5f;
+        }
+
+        .content .quote {
+            font-style: italic;
+            color: #6c757d;
+            margin: 20px 0;
+            text-align: center;
+            transition: color 0.3s ease;
+        }
+
+        .content .quote:hover {
+            color: #b56576;
+        }
+
+        .footer {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 14px;
+            color: #b56576;
+            transition: color 0.3s ease;
+        }
+
+        .footer p:hover {
+            color: #ff7e5f;
+        }
+
+        .progress-container {
+            width: 100%;
+            height: 8px;
+            background: #ccc;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .progress-bar {
+            height: 8px;
+            width: 0;
+            background: linear-gradient(270deg, #ff7e5f, #feb47b);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+            transition: width 0.4s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1>A Message to You</h1>
+        </div>
+        <div class="content">
+            <p>Hey, how are you? I hope you're doing great. It’s polite to introduce yourself, but even if I do, you might not recognize me. So, to jog your memory: I’m the guy you promised to come back to after 2 months, but you never did. No worries, I'm not blaming or complaining.</p>
+            <p>A lot has changed in my life over the past 2 months. Where should I start? My crush asked me out four times, and I turned her down every time. People actually want to hang out with me now. There's this girl who acts like we're a couple in public, and another who always invites me to her room when she's alone. I play dumb, and she calls me "<span class="highlight">baklol dimak ka dhakkan band hai tere</span>" (fool, your mind is closed). People now include me in their plans, like trips to water parks and amusement parks. I’m not bragging; I just miss you. Whenever something good happens, I think of you and feel it’s because of you. You taught me that life is beautiful and that I can be someone’s competition too.</p>
+            <p>Want to know how it all started? After you left, I missed you so much for two days. Then I realized I had to forget you for 2 months until you returned on June 8. To keep busy, I started learning three new technologies and doing intense workouts. But I never truly forgot you. Every compliment reminded me of you.</p>
+            <p>I followed all your advice, including the face exercises. At first, I saw no results, but after 2.5 weeks, I noticed small changes. Cutting out oil and fast food helped reduce my face fat. After 1.5 months, I saw real progress. I tried clean shaving, but it made me look like a baby. I didn’t ask anyone how I looked because their opinion doesn’t matter, but I’d love to know what you think.</p>
+            <p>I watched the K-drama "<span class="highlight">Hidden Love</span>" that you recommended. It left me speechless. After almost 2 years, I watched a drama just because of you. If I were to suggest any shows for you, it would be "<span class="highlight">Your Lie in April</span>" and "<span class="highlight">I Want to Eat Your Pancreas</span>."</p>
+            <p>When I posted gym pictures on Instagram, girls started sliding into my DMs. I’m not showing off; I started going to the gym because of you. Their messages didn’t excite me, but texting with you was always special. Even though it was brief, it was amazing. Chatting with others feels empty compared to waiting for you.</p>
+            <p>If I have one complaint, it's that your fashion suggestions were limited. But they were spot on. My mom is thrilled that I’m living life again. I stopped coding at night because it reminded me of our late-night chats.</p>
+            <p>What really hurt was not that you blocked me, but that you said you were studying while being active on Instagram. I still have so many unanswered questions. I want to know more about you: how you talk, your hand gestures, your favorite foods, and how you started believing in Krishna. I also wanted to ask about skincare, sunscreen, and if I should change my friendly behavior. Looking back, I don't like who I was 2 months ago, so I can't blame you for leaving.</p>
+            <p>Lately, I’ve been isolating myself because waiting for you feels better than spending time with anyone else. Even though I know you won’t come back, I still reread your messages. It always feels like you’re talking to me. I have a new definition of beauty: someone who behaves like you.</p>
+            <p class="quote">Every April will remind me of you:<br>
+            "April will be here soon.<br>
+            April, the season I met you, is coming.<br>
+            An April without you...<br>
+            ...is coming."</p>
+            <p>Please give Devanshi her favorite chocolate from my side. She's your best friend, which I couldn’t be. Please, give it to her from me.</p>
+            <p>I have so much to tell you,so much to ask you whats happning in your life? but will you read this message? I don’t know.</p>
+            <p>I know 7 programming languages,<br>
+            I know 3 spoken languages,<br>
+            but I still don’t know how to speak my feelings.</p>
+            <p>i missed you more then i know you </p>
+            <p>can you do one favor can you change your Instagram username so i can never find you</p>
+            <p>i really liked your one sentence when you said "<span class="highlight">we started this stranger but we will never end this as stranger</span> </p>
+            <p> i know that nothing is permanent but i wish i could really spent some more chatting hours with you </p>
+            <p> i still miss your ai chatbot hope my tokens are save with you </p>
+            <p>one more thing i started to sing now i am improving  i know my dare is pending may be i will attach my recording in future</p>
+            <p>by my alien friend</p>
+            <p>the sunset is beautiful isn't it</p>
+
+        </div>
+        <div class="footer">
+            <p>Sayonara<br>Adiós<br>Radhe Krishna</p>
+        </div>
+    </div>
+
+    <script>
+        window.onscroll = function() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("progress-bar").style.width = scrolled + "%";
+        };
+    </script>
+</body>
+</html>
